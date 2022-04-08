@@ -4,18 +4,35 @@ margin: 0;padding: 0;
 body {
     margin-top: 0;
     margin-bottom: 0;
-    /* position: absolute;
-    text-align: center; */
+    position: absolute;
+    /* text-align: center; */
     font-family: 'Merriweather', serif;
+    /* font-size: 2em; */
 }
 h1 {
     font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    /* line-height: 2; */
+    
+    /* 100%=16px */
+    /* 90px=562.5% */
+    /* 1em = M
+    2em = MM
+    90px= 5.625em */
+    /* rem=overwrite their parent font size */
+    /* margin-top: 50px auto 0 auto; */
 }
 h2 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    /* 40px=2.5rem */
 }
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
 }
 p {
     font-family: 'Montserrat', sans-serif;
@@ -25,19 +42,14 @@ p {
     height: 100vh;
     width: 100vw;
 } */
-/* .secondcontainer {
-    background-color: red;
-    height: 200px;
-    width: 200px;
+#pro {
+    text-decoration: underline;
 }
-.thirdcontainer {
-    background-color: blue;
-    height: 200px;
-    width: 200px; 
-}*/
+
 .firstcontainer {
     /* top: 10vh; */
-    position: absolute;
+    
+    position: relative;
     text-align: center;
     padding-top: 100px;
     background-color: #E4F9F5;
@@ -55,3 +67,15 @@ p {
     bottom: 300px;
     
 }
+.middle-container {
+    text-align: center;
+}
+
+#profilepik {
+    height: 10rem;
+}
+#skill1 {
+    height: 10rem;
+}
+
+
